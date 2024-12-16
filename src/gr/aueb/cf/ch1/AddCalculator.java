@@ -7,6 +7,8 @@ public class AddCalculator {
         int num1 = 10;
         int num2 = 20;
         int result = add(num1, num2);
+
+        System.out.println("sum: " + result);
     }
 
     public static int add(int a, int b) {
